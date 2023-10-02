@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brown: '#b91c1c',
+          }
+        }
+      }
+    }
+  </script>
+<body > 
+    <div id="main" class="w-100 h-screen bg-black relative overflow-hidden">
+        <div id="nav" class="flex justify-between items-center mx-6">
+           <img src="https://logos-world.net/wp-content/uploads/2021/02/Squarespace-Symbol-700x394.jpg" alt="" srcset="" class="md:w-48 w-40  rounded-lg">
+           <div class="navsec text-white text-xl ml-24 md:flex hidden ">
+           <h3 class="px-5 ">Products</h3>
+           <h3 class="px-5">Templates</h3>
+           <h3 class="px-5">Resources</h3>
+           </div>
+           <div class="navlastsec text-white flex md:text-xl text-sm items-center">
+            <h4 class="mx-6">Log In</h4>
+            <button class="bg-white text-black md:py-2 py-1 md:px-4 px-2   rounded-lg">Get Started</button>
+           </div>
+        </div>
+        <div class="flex justify-center items-center h-2/3 flex-col font-bold" id="lastsec">
+            <h1 class="md:text-8xl text-6xl text-white text-center my-5 z-10">EVERYTHING</h1>
+            <h1 class="md:text-8xl text-6xl text-white text-center my-5 items-center flex z-10">TO <span class="  text-xl bg-brown px-4 py-2 rounded-full  text-center mx-8">BOOK NOW</span> SELL</h1>
+            <h1 class="md:text-8xl text-6xl text-white text-center my-5 z-10">ANYTHING</h1>
+        </div>
+        <div id="tu">
+
+            <img src="https://images.unsplash.com/photo-1695757827965-7bd92a4b9826?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="" srcset="" class="absolute top-28  md:left-36 left-4  md:w-60 w-44 h-76  rounded-2xl z-0 ">
+            <img src="https://images.unsplash.com/photo-1617469165786-8007eda3caa7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="" srcset="" class=" absolute bottom-24 md:right-24  right-4 md:w-72 w-40 md:h-72  h-60 rounded-2xl z-0">
+        </div>
+           
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
